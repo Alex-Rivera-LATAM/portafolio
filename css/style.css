@@ -53,7 +53,7 @@ header{
     font-size: var(--p-font);
     color: var(--text-color);
     font-weight: 500;
-    padding: 8px 20px;
+    padding: 7px 20px;
 }
 /*--------efecto del menú-------*/
 .navlist a::after{
