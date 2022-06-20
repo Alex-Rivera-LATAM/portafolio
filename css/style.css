@@ -329,7 +329,36 @@ header.sticky{
     bottom: 48%;
     opacity: 1;
 }
-
+.open{
+    display: inline-block;
+    color: var(--bg-color);
+    background: var(--main-color);
+    font-size: var(--p-font);
+    padding: 10px 40px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 30px;
+    transition: ease .40s;
+}
+.open:hover{
+    transform: scale(1.1);
+}
+.layer a{
+    position:absolute;
+    margin-bottom: -75px;
+    width: 25%;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--bg-color);
+    bottom: 0;
+    transform: translatey(-5%);
+    opacity: 0;
+    transition: all .25s;
+}
+.layer:hover a{
+    bottom: 52%;
+    opacity: 1;
+}
 /*-----service--------*/
 .service-content{
     display: grid;
