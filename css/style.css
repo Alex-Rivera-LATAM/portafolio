@@ -263,9 +263,11 @@ header.sticky{
     color: var(--secound-color);
     line-height: 28px;
 }
+.portafolio{
+    height: 100%;
+}
 .portfolio-content{
     display: grid;
-    height: 100%;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     grid-gap: 2rem;
     align-items: center;
@@ -279,7 +281,7 @@ header.sticky{
 }
 .col img{
     max-width: 100%;
-    width: 550px;
+    width: 350px;
     height: auto;
     object-fit: cover;
     border-radius: 12px;
