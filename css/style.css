@@ -288,6 +288,8 @@ header.sticky{
 	pointer: url('/api/api.html');
 }
 .layer{
+    display: flex;
+    justify-content: center;
     background: transparent;
     height: 100%;
     width: 100%;
